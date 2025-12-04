@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+/*import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -18,6 +18,21 @@ function App() {
           Learn React
         </a>
       </header>
+    </div>
+  );
+}
+
+export default App; */
+
+import Counter from "./Components/Counter"; // Import Counter component
+import Greeting from "./Components/Greeting"; // Import Greeting component
+
+function App() {
+  return (
+    <div style={{ textAlign: "center", marginTop: "50px" }}>
+      <h1>My First Interactive React App</h1>
+      <Greeting /> {/* Render the Greeting component */}
+      <Counter />  {/* Render the Counter component */}
     </div>
   );
 }
