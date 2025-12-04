@@ -26,6 +26,7 @@ export default App; */
 
 import Counter from "./Components/Counter"; // Import Counter component
 import Greeting from "./Components/Greeting"; // Import Greeting component
+import './App.css';
 
 function App() {
   return (
