@@ -5,7 +5,7 @@ function Counter() {
 
   return (
     <div>
-      <h2>Counter: {count}</h2> {/* Display the current count */}
+      <h2 className="blueHead">Counter: {count}</h2> {/* Display the current count */}
       <button onClick={() => setCount(count + 1)}>Increase</button> 
       {/* Button updates count using setCount */}
       <button onClick={() => setCount(count - 1)}>Decrease</button>

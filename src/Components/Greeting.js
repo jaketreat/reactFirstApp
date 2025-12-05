@@ -5,7 +5,8 @@ function Greeting() {
 
   return (
     <div>
-      <h2>Hello, {name || "Stranger"}!</h2> {/* Display name or default */}
+      {/*<h2 className="redHead">Hello, {name || "Stranger"}!</h2> {/* Display name or default */}
+      <h2 className="redHead">{name == 'Jake' ? "Hello, Jake" : "That's a bad name!"}</h2>
       <input 
         type="text" 
         placeholder="Type your name" 
