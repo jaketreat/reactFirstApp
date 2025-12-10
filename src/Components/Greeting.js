@@ -11,8 +11,11 @@ function Greeting() {
     case "Jake":
       Greeting = `${name} is a good Name!`;
       break;
+    case "Emmy":
+      Greeting = "Hello Chungus";
+      break;
     case "":
-      Greeting = "Hello Stranger";
+      Greeting = "Hello Sailor";
       break;
     default:
       Greeting = `${name} is a bad name!`
