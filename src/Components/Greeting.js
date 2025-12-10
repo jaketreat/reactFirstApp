@@ -3,14 +3,20 @@ import { useState } from "react";
 function Greeting() {
   const [name, setName] = useState(""); // State for the name input
   let Greeting;
-  if (name == "Erica") {
-    Greeting = "Hello Erica!!"
-  } else if (name == "Jake") {
-    Greeting = "Hello Jake!!"
-  } else if (name == "") {
-    Greeting = " "
-  } else {
-    Greeting = `${name} is a bad name!`
+
+  switch (name) {
+    case "Erica":
+      Greeting = `${name} is a good Name!`;
+      break;
+    case "Jake":
+      Greeting = `${name} is a good Name!`;
+      break;
+    case "":
+      Greeting = "";
+      break;
+    default:
+      Greeting = `${name} is a bad name!`
+
   }
 
   return (

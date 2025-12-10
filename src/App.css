@@ -24,4 +24,10 @@ button {
   border: none;
   background-color: #485e40;
   color: white;
+  transition: ease 0.3s;
+}
+
+button:hover {
+  scale: 1.1;
+  cursor: pointer;
 }
