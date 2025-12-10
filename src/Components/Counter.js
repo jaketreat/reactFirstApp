@@ -5,13 +5,18 @@ function Counter() {
 
   return (
     <div>
-      <h2 className="whiteHead">Kittens you should have: {count}</h2> {/* Display the current count */}
+      <h2 className="whiteHead">Cats allowed in your house: <span className="greenHead">{count}</span></h2> {/* Display the current count */}
       <button onClick={() => setCount(count + 1)}>Increase</button> 
       {/* Button updates count using setCount */}
       <button onClick={() => setCount(count - 1)}>Decrease</button>
       <button onClick={() => setCount(0)}>Reset</button>
+      {newFunction()}
     </div>
   );
+
+    function newFunction() {
+        return <button onClick={() => setCount(count + Math.floor(Math.random() * 100) + 25)}>Push for More Cats</button>;
+    }
 }
 
 export default Counter; // Export so other files can import it
