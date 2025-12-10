@@ -19,7 +19,7 @@ function Greeting() {
       <input 
         type="text" 
         placeholder="Type your name" 
-        value={name} 
+        value={toUpperCase(name)} 
         onChange={(e) => setName(e.target.value)} 
       />
       {/* Updates state as user types */}
