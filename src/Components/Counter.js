@@ -15,7 +15,7 @@ function Counter() {
   );
 
     function newFunction() {
-        return <button onClick={() => setCount(count + Math.floor(Math.random() * 100) + 25)}>Push for More Cats</button>;
+        return <button onClick={() => setCount(count + Math.floor(Math.random() * 250))}>Push for More Cats</button>;
     }
 }
 
