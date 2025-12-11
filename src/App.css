@@ -36,11 +36,15 @@ button:hover {
   margin-bottom: 3rem;
 }
 
-img {
+.myLogo {
   height: 10rem;
 }
 
-img:hover {
+.myLogo g {
+  fill: red;
+}
+
+.myLogo:hover {
   animation: spin linear 4s;
   cursor: pointer;
 }

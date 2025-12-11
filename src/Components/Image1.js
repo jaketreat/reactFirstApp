@@ -1,15 +1,10 @@
-import logo from "../logo.svg";
+//import logo from "../logo.svg";
+import { ReactComponent as MyLogo } from "../logo.svg";
 
-function Logo({ imageCLicked }) {
+function Logo() {
 
     return (
-        <div>
-            <img 
-                src={logo} 
-                alt="Logo"
-    
-            />
-        </div>
+       <MyLogo className="myLogo" alt="Logo" />
     )
 }
 
