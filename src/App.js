@@ -9,7 +9,8 @@ function App() {
       <h1>My First Interactive React App</h1>
       <Greeting /> {/* Render the Greeting component */}
       <Counter />  {/* Render the Counter component */}
-      <Logo />
+      <Logo colorClass="whiteClass"/>
+      <Logo colorClass="greenClass"/>
     </div>
   );
 }

@@ -40,11 +40,28 @@ button:hover {
   height: 10rem;
 }
 
-.myLogo g {
-  fill: red;
+.whiteClass g {
+  fill: white;
 }
 
-.myLogo:hover {
+.whiteClass {
+  height: 10rem;
+}
+
+.greenClass g {
+  fill: #485e40;
+}
+
+.greenClass {
+  height: 10rem;
+}
+
+.greenClass:hover {
+  animation: spin linear 4s;
+  cursor: pointer;
+}
+
+.whiteClass:hover {
   animation: spin linear 4s;
   cursor: pointer;
 }

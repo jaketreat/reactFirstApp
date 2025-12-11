@@ -1,10 +1,10 @@
 //import logo from "../logo.svg";
 import { ReactComponent as MyLogo } from "../logo.svg";
 
-function Logo() {
+function Logo(props) {
 
     return (
-       <MyLogo className="myLogo" alt="Logo" />
+       <MyLogo className={props.colorClass} alt="Logo" />
     )
 }
 
