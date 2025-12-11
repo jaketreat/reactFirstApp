@@ -31,3 +31,25 @@ button:hover {
   scale: 1.1;
   cursor: pointer;
 }
+
+.counterSection {
+  margin-bottom: 3rem;
+}
+
+img {
+  height: 10rem;
+}
+
+img:hover {
+  animation: spin linear 4s;
+  cursor: pointer;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
