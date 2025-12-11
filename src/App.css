@@ -36,14 +36,13 @@ button:hover {
   margin-bottom: 3rem;
 }
 
-.myLogo {
-  height: 10rem;
-}
+/* SVG classes on hover and based on color properties */
 
 .whiteClass g {
   fill: white;
 }
 
+.greenClass,
 .whiteClass {
   height: 10rem;
 }
@@ -52,15 +51,7 @@ button:hover {
   fill: #485e40;
 }
 
-.greenClass {
-  height: 10rem;
-}
-
-.greenClass:hover {
-  animation: spin linear 4s;
-  cursor: pointer;
-}
-
+.greenClass:hover,
 .whiteClass:hover {
   animation: spin linear 4s;
   cursor: pointer;
