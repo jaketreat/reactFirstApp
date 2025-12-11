@@ -1,6 +1,7 @@
 import Counter from "./Components/Counter"; // Import Counter component
 import Greeting from "./Components/Greeting"; // Import Greeting component
 import Logo from "./Components/Image1"; // Import logo image file
+import ColorTest from "./Components/ColorTest"; //Import Color test
 import './App.css';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Counter />  {/* Render the Counter component */}
       <Logo colorClass="whiteClass"/>
       <Logo colorClass="greenClass"/>
+      <ColorTest />
     </div>
   );
 }
