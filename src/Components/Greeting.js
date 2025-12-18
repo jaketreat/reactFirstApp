@@ -32,6 +32,7 @@ function Greeting() {
         placeholder="Type your name" 
         value={name} 
         onChange={(e) => setName(e.target.value)} 
+        autoFocus
       />
       <h2 className="whiteHead">{Greeting}</h2>
       {/* Updates state as user types */}
